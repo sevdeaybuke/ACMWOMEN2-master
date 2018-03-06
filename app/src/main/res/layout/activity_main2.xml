@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/loginScreen"
+    tools:context="com.example.kubra.hayvanlaritaniyalim.Main2Activity"
+    android:weightSum="1">
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="İsim"
+        />
+
+    <EditText
+        android:id="@+id/editTextSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Soyisim"
+        />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Şifre"
+
+        />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:background="@color/loginButton"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Giriş" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        android:layout_weight="0.74" />
+</LinearLayout>
